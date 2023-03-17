@@ -1,0 +1,3938 @@
+body {
+  margin: 0;
+}
+
+html * {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Source Serif Pro', serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1230px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.like-too {
+  padding: 13px 24px 13px 24px;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.invislign .page-hero {
+  margin-top: -233px;
+  padding-top: 250px;
+}
+
+.header {
+  /* background: rgba(0, 80, 108, 0.95); */
+  padding-top: 21px;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.header-soctland-dental-logo {
+  max-width: 32%;
+  width: 100%;
+}
+
+.header-soctland-dental-logo img {
+  width: 100%;
+  max-width: 250px;
+  display: block;
+  margin: 0 auto;
+}
+
+.header-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-btn {
+  display: flex;
+  gap: 10px;
+  max-width: 34%;
+  width: 100%;
+}
+
+.header-btn-details {
+  display: flex;
+  gap: 15px;
+  max-width: 34%;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.mobile-menu {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.33) 0%,
+    #00506c 73.57%
+  );
+  left: 0;
+  top: 100%;
+  padding: 24px 20px 20px;
+  width: 100%;
+  display: none;
+}
+
+.mobile-menu .mobile-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.mobile-menu .mobile-btns a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.5;
+  text-transform: uppercase;
+  padding: 8px 15px;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  display: block;
+}
+
+.mobile-menu .mobile-nav-list {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+.mobile-menu .mobile-nav-list a {
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.mobile-menu .mobile-nav-list li:not(:last-of-type) {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.mobile-header-social {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-details {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+ul.main-nav-list {
+  color: white;
+  display: flex;
+  list-style: none;
+  text-decoration: none;
+  padding: 0;
+  justify-content: space-between;
+  margin: 0;
+}
+
+a.main-nav-link {
+  text-decoration: none;
+  color: white;
+  border-right: 1px solid white;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding-right: 30px;
+  line-height: 2;
+  display: block;
+}
+
+.nav-contact {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  border-right: 0px solid !important;
+  text-transform: uppercase;
+  padding-right: 20px;
+}
+
+.hero {
+  background-image: linear-gradient(
+      180deg,
+      #00506c 2.9%,
+      rgba(0, 80, 108, 0) 74.58%
+    ),
+    url(./assets/img/Rectangle\ 52.png);
+  background-position: center;
+  background-size: cover;
+  padding: 44px 0;
+  min-height: 81vh;
+}
+
+h1.hero-heading {
+  text-align: center;
+  font-size: 46px;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 5px 0;
+}
+
+.hero-container {
+}
+
+p.hero-text {
+  margin: 0px;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  color: white;
+  line-height: 1.3;
+}
+
+.hero-main-div {
+}
+
+h3.heading-partner {
+  margin: 0px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #00506c;
+  font-family: 'Montserrat';
+}
+
+section.partners {
+  border-bottom: 1px solid #3bc7f7;
+}
+
+.partner-logo {
+  display: flex;
+  align-items: center;
+  gap: 34px;
+  padding: 21px 0 10px;
+  max-width: 50%;
+  width: 100%;
+}
+
+.partners-main {
+  max-width: 1112px;
+  margin: 0 auto;
+}
+
+h3.most-popular {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: #00506c;
+  max-width: 368px;
+  text-align: center;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.about-saving {
+  display: flex;
+  align-items: center;
+  gap: 29px;
+  justify-content: center;
+}
+
+h3.saving {
+  margin: 0px;
+  color: #00506c;
+  font-family: 'Montserrat';
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.video-about-brace {
+  font-size: 16px;
+  font-weight: 500;
+  color: #00506c;
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+img.teeth-img {
+  padding-bottom: 63px;
+  display: block;
+  margin: 0 auto;
+  width: auto;
+}
+
+.form-main {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.form-content {
+  max-width: 50%;
+  width: 100%;
+}
+
+.heading-brace-system {
+  padding-top: 50px;
+}
+
+form.cta-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.gallery-details img {
+  width: 100%;
+  display: block;
+}
+
+h3.form-heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 28px;
+  margin: 0px;
+  padding-bottom: 5px;
+  color: white;
+}
+
+p.form-text {
+  margin: 0px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  color: #3bc7f7;
+  padding-bottom: 24px;
+}
+
+input.form-input {
+  padding: 17px 30px 17px 30px;
+  border-radius: 50px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+}
+
+.form-checkbox {
+  text-align: center;
+}
+
+label.checkbox-text {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+}
+
+.form-checkbox {
+  padding: 10px 0px;
+}
+
+input.submit-form-btn {
+  padding: 17px 0px;
+  background: #3bc7f7;
+  border-radius: 100px;
+  border: none;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+}
+
+.form-cta-main {
+  background: #00506c;
+  box-shadow: 3px 4px 10px 1px rgb(0 80 108 / 15%);
+  border-radius: 10px;
+  padding: 48px 32px;
+}
+
+.form-cta-main {
+  margin-top: -145px;
+}
+
+.about-specialist-btn {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(59, 199, 247, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: white;
+  padding: 13px 65px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.about-view-location {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(59, 200, 247, 0);
+  border-radius: 100px;
+  border: none;
+  color: #00506c;
+  padding: 13px 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+section.Specialist-orthodontists {
+  text-align: center;
+  padding-bottom: 45px;
+}
+
+h3.Specialist-orthodontists-heading {
+  margin: 0px;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  line-height: 1.4;
+  color: #454648;
+}
+
+h4.Specialist-our-team {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  color: #00506c;
+  padding-bottom: 10px;
+  line-height: 1.4;
+  max-width: 830px;
+  margin: 0 auto 10px;
+}
+
+.specialist-main {
+  max-width: 944px;
+  margin: 0 auto;
+}
+
+p.Specialist-our-team-text {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  line-height: 1.5;
+  padding-bottom: 30px;
+  width: 100%;
+  margin: 0px;
+  color: #454648;
+}
+
+.composite-bonding-details-main {
+  max-width: 260px;
+}
+
+.btn-invisalign {
+  font-size: 14px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 100px;
+  border: none;
+  color: #00506c;
+  padding: 13px 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Invisalign {
+  background-image: url(./assets/img/Rectangle\ 71.png);
+  padding: 150px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.container-invisalign {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+h3.heading-invisalign {
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 8px;
+}
+
+p.Invisalign-text {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Montserrat';
+  width: 103%;
+  line-height: 1.8;
+  margin: 0px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.main-invisalign {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.75) 0%,
+    rgba(0, 80, 108, 0.2475) 100%
+  );
+  border-radius: 20px;
+  max-width: 410px;
+  padding: 40px 39px 31px 39px;
+  width: 100%;
+}
+
+.invisalign-container {
+  max-width: 1030px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main-coposite-bonding {
+  display: flex;
+}
+
+img.men-smiling {
+  width: 100%;
+  display: block;
+}
+
+img.women-smiling {
+  width: 100%;
+  display: block;
+}
+
+.women-with-smiling {
+  max-width: 50%;
+  width: 100%;
+}
+
+h2.heading-composite-bonding {
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-bottom: 8px;
+  color: white;
+}
+
+p.text-composite-bonding {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.composite-bonding-details {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.75) 0%,
+    rgba(0, 80, 108, 0.2475) 100%
+  );
+  border-radius: 0px 20px 20px 0px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.men-with-smiling {
+  max-width: 50%;
+  width: 100%;
+}
+
+section.composite-bonding {
+  margin-bottom: 20px;
+}
+
+.main-dental-implants {
+  display: flex;
+}
+
+h2.heading-dental-implants {
+  margin: 0px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.2;
+  padding-bottom: 8px;
+  color: white;
+}
+
+p.text-dental-implants {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.7;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.dental-implants-details {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.75) 0%,
+    rgba(0, 80, 108, 0.2475) 100%
+  );
+  border-radius: 20px 0px 0px 20px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.dental-implants {
+  margin-bottom: 110px;
+}
+
+.Invisalign-saving {
+  background-image: url(./assets/img/Rectangle\ 36.png);
+  background-position: center;
+  background-size: cover;
+  padding: 96px 0;
+}
+
+.about-appoitment {
+  text-align: center;
+}
+
+h3.heading-invisalign-saving {
+  margin: 0px;
+  font-size: 38px;
+  font-weight: 600;
+  color: white;
+  padding-bottom: 12px;
+}
+
+p.text-invisalign-appiotment {
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  margin: 0px;
+  padding-bottom: 25px;
+  line-height: 1.4;
+}
+
+button.btn-appointment {
+  padding: 13px 36px 13px 36px;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 600;
+  color: #00506c;
+  cursor: pointer;
+}
+
+footer.dental-footer {
+  background: #00506c;
+}
+
+.main-nav-footer {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: space-between;
+  padding-top: 54px;
+  padding-bottom: 74px;
+  width: 100%;
+}
+
+.footer-logo {
+  width: 33%;
+}
+
+p.footer-text {
+  margin: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  line-height: 1.9;
+  width: 89%;
+  font-family: 'Montserrat';
+  padding-top: 13px;
+}
+
+h3.heading-nav-information {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #d6f4ff;
+  padding-bottom: 24px;
+  text-transform: capitalize;
+}
+
+h3.heading-nav-sevices {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #d6f4ff;
+  padding-bottom: 24px;
+  text-transform: capitalize;
+}
+
+h3.heading-nav-getin {
+  margin: 0px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #d6f4ff;
+  padding-bottom: 24px;
+}
+
+p.info-dental {
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  font-family: 'Montserrat';
+  margin: 0px;
+  padding-bottom: 18px;
+}
+
+p.info-dental {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-end {
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid white;
+  padding-top: 35px;
+  padding-bottom: 94px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+p.text-dental-scotland {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.about-privacy-policy {
+  display: flex;
+  gap: 30px;
+}
+
+p.Privacy-policy {
+  margin: 0px;
+  font-size: 11px;
+  font-weight: 500;
+  color: white;
+}
+
+p.website-design {
+  margin: 0px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+}
+
+.nav-getin {
+  padding-top: 20px;
+}
+
+section.follow-on-instagram {
+  text-align: center;
+  padding: 116px 0 130px;
+  width: 100%;
+}
+
+h3.instagram-username {
+  margin: 0px;
+  font-size: 38px;
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+
+p.text-for-insta {
+  margin: 0px;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 15px;
+}
+
+h3.heading-for.location {
+  margin: 0px;
+  padding-top: 110px;
+  padding-bottom: 60px;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+ul.nav-information {
+  list-style: none;
+  text-decoration: none;
+}
+
+a.info-pager {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.nav-information li {
+  padding-bottom: 12px;
+}
+
+a.info-services {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+ul.nav-services {
+  list-style: none;
+}
+
+.nav-services li {
+  padding-bottom: 12px;
+}
+.about-location h3 {
+  margin: 0 0 10px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #00506c;
+}
+
+.about-location p {
+  margin: 0 0 30px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+}
+
+.about-location {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px 20px;
+}
+
+.page-hero .hero-main {
+  display: flex;
+  align-items: center;
+  max-width: 1150px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.page-hero {
+  background: linear-gradient(
+    180deg,
+    #00506c 2%,
+    rgba(0, 80, 108, 0.34) 89.55%
+  );
+  padding: 19px 0 0;
+}
+
+.page-hero .hero-main img {
+  display: block;
+  width: 100%;
+}
+
+.hero-img {
+  max-width: 48%;
+  width: 100%;
+}
+
+.hero-content {
+  max-width: 52%;
+  width: 100%;
+  padding-left: 76px;
+}
+
+.hero-content .breadcrumbs :is(a, span) {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 31px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero-content .breadcrumbs {
+  color: white;
+  margin-bottom: 5px;
+}
+
+.hero-content h1 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 58px;
+  margin: 0 0 5px;
+}
+
+.hero-content p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 31px;
+  margin: 0;
+}
+
+.one-invislign h3.Specialist-orthodontists-heading {
+  margin-bottom: 15px;
+}
+
+.one-invislign p.Specialist-our-team-text {
+  margin-bottom: 50px;
+}
+
+.specialist-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.specialist-list .offer {
+  max-width: 42%;
+  width: 100%;
+}
+
+.complimentry-services {
+  max-width: 49%;
+  width: 100%;
+}
+
+.specialist-list .offer h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  color: #454648;
+  text-align: left;
+}
+
+.specialist-list .offer ul {
+  padding: 0;
+  text-align: left;
+  list-style: none;
+}
+
+.specialist-list .offer ul li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.specialist-list .offer ul li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+.specialist-list .offer ul li p {
+  margin: 0;
+}
+
+.specialist-list .offer ul li p b {
+  color: #00506c;
+}
+
+.complimentry-services {
+  text-align: left;
+}
+
+.complimentry-services span {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #454648;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.complimentry-services h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #00506c;
+  margin: 0;
+  margin-bottom: 13px;
+}
+
+.complimentry-services p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #454648;
+  margin: 0;
+}
+
+.one-invislign {
+  padding-bottom: 85px !important;
+}
+
+.compare {
+  padding: 100px 0;
+}
+
+.compare-main {
+  display: flex;
+  position: relative !important;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.compare-main img {
+  width: 100%;
+  display: block;
+}
+
+.compare-main .vs {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 81px;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00506c;
+  border: 4px solid #ffffff;
+  border-radius: 50%;
+}
+
+.compare-main .compare-invislign-content {
+  position: absolute;
+  bottom: 42px;
+}
+
+.compare-main .compare-invislign-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.compare-main .compare-invislign-content li {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+}
+
+.compare-main .compare-invislign-content li img {
+  max-width: 19px;
+  width: 100%;
+}
+
+.compare-main .compare-invislign-content li p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00506c;
+}
+
+.compare-main .compare-invislign .compare-invislign-content {
+  left: 30px;
+}
+
+.compare-main .compare-braces .compare-invislign-content {
+  right: 30px;
+  max-width: 267px;
+  bottom: 20px;
+}
+
+.compare-main .compare-invislign-content h3 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+  color: #00506c;
+  margin: 0 0 20px;
+}
+
+.compare-main .compare-invislign-content li:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.compare-main .compare-invislign-content li img {
+  margin-top: 2px;
+}
+
+.compare-main .vs span {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 28px;
+  display: block;
+  color: #ffffff;
+}
+
+.why-choose {
+  padding: 91px 0 173px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.33) 0%,
+    #00506c 73.57%
+  );
+  margin-bottom: 86px;
+}
+
+.why-choose h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.3;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #f5f5f5;
+}
+
+.why-choose .container > p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #f5f5f5;
+  text-align: center;
+  max-width: 988px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.why-choose .why-main {
+  display: flex;
+  text-align: center;
+  gap: 30px;
+  margin-bottom: 93px;
+}
+
+.why-choose .why-main .why-card {
+  max-width: 25%;
+  width: 100%;
+}
+
+.why-choose .why-card .why-img {
+  max-width: 95px;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  background: #d6f4ff;
+  border-radius: 50%;
+  margin-bottom: 25px;
+}
+
+.why-choose .why-card h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 5px;
+}
+
+.why-choose .why-card p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #f5f5f5;
+}
+
+.why-booking {
+  max-width: 900px;
+  margin: 0 auto -237px;
+  background: #d6f4ff;
+  text-align: center;
+  padding: 38px 0;
+  z-index: 9;
+  position: relative;
+}
+
+.why-booking h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.3;
+  color: #333335;
+}
+
+.why-booking p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 2;
+  margin-bottom: 17px;
+}
+
+.why-booking a {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #f5f5f5;
+  text-decoration: none;
+  background: #00506c;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  text-transform: uppercase;
+  padding: 13px 35px;
+  display: block;
+  width: fit-content;
+  margin: 0 auto -60px;
+}
+
+section.how-it-works {
+  padding: 155px 0;
+}
+
+.how-main {
+  display: flex;
+  align-items: center;
+}
+
+.how-main .how-content {
+  max-width: 55%;
+  width: 100%;
+  padding-right: 67px;
+}
+
+.how-main .how-img {
+  max-width: 45%;
+  width: 100%;
+  position: relative;
+  padding-top: 75px;
+  padding-right: 75px;
+}
+
+.how-img-main {
+  position: relative;
+}
+
+.how-main .how-img img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  z-index: 2;
+  position: relative;
+}
+
+.how-main .how-img-main::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -44px;
+  z-index: -1;
+  right: -44px;
+  background: #3bc7f7;
+  border-radius: 2px;
+}
+
+.how-main .how-img-main::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 183px;
+  aspect-ratio: 1;
+  background: url('./assets/img/Dots.png');
+  right: -75px;
+  top: -75px;
+  z-index: 1;
+}
+
+.how-main .how-content h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.3;
+  color: #333335;
+  margin-bottom: 10px;
+}
+
+.how-main .how-content p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #454648;
+  margin-bottom: 25px;
+}
+
+.how-main .how-content h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.3;
+  color: #00506c;
+  margin-bottom: 5px;
+}
+
+.compare-table {
+  padding-bottom: 135px;
+}
+
+.compare-table h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #454648;
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.compare-table table {
+  width: 100%;
+  border-spacing: 7px;
+  min-width: 985px;
+  overflow: auto;
+}
+
+.compare-table table thead th:first-of-type {
+  width: 512px;
+}
+
+.compare-table table :is(th, td) {
+  text-align: center;
+  height: 99px;
+}
+
+.compare-table table tbody :is(th, td) {
+  text-align: center;
+  height: 99px;
+  text-align: center;
+  height: 99px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #00506c;
+}
+
+.compare-table table thead :is(th, td) {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #333335;
+}
+
+.compare-table table tbody td:first-of-type {
+  text-align: left;
+  background: rgba(0, 80, 108, 0.7);
+  padding: 0 35px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.compare-table table tbody td:nth-of-type(2) {
+  background: #d6f4ff;
+}
+
+.compare-table table tbody td:nth-of-type(3) {
+  background: #dbdbdb;
+}
+
+.compare-table table tbody td:nth-of-type(4) {
+  background: #e9e9e9;
+}
+
+.what-invislign {
+  padding-bottom: 150px;
+}
+
+.what-invislign h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: center;
+  color: #454648;
+  margin-bottom: 70px;
+}
+
+.what-main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 45px 33px;
+}
+
+.what-main .what-card {
+  text-align: center;
+  max-width: calc(33.33% - 22px);
+}
+
+.what-main .what-card img {
+  max-width: 240px;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  aspect-ratio: 1/0.7;
+  margin-bottom: 10px;
+}
+
+.what-main .what-card h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 35px;
+  color: #00506c;
+  margin-bottom: 10px;
+}
+
+.what-main .what-card p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #454648;
+}
+
+.package-main {
+  display: flex;
+  gap: 8px;
+}
+
+.package-main .left-img {
+  max-width: 24%;
+  width: 100%;
+  background: url('./assets/img/left-img.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.package-main .main-content {
+  max-width: 32%;
+  width: 100%;
+  background: rgba(214, 244, 255, 0.7);
+}
+
+.package-main .right-img {
+  max-width: 44%;
+  width: 100%;
+  background: url('./assets/img/right-img.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.package-main .main-content .content-head {
+  text-align: center;
+  padding: 38px 10px;
+  background: #00506c;
+  color: white;
+}
+
+.package-main .main-content .content-head h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+}
+
+.package-main .main-content .content-body {
+  padding: 40px 50px 50px;
+}
+
+.package-main .main-content .content-body h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+  color: #00626f;
+  margin-bottom: 40px;
+}
+
+.package-main .main-content .content-body ul {
+  list-style: none;
+  margin-bottom: 40px;
+  padding: 0;
+  margin-top: 0;
+}
+
+.package-main .main-content .content-body ul li {
+  display: flex;
+  gap: 18px;
+}
+
+.package-main .main-content .content-body ul li:not(:last-of-type) {
+  margin-bottom: 22px;
+}
+
+.package-main .main-content .content-body ul p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+}
+
+.package-main .main-content .content-body ul img {
+  margin-top: 2px;
+}
+
+.package-main .main-content .content-body ul p b {
+  color: #00506c;
+}
+
+.package-main .main-content .content-body a {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #f5f5f5;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 13px 50px;
+  background: #3bc7f7;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  display: block;
+  width: fit-content;
+}
+
+.free-virtual {
+  padding-top: 145px;
+  background: url('./assets/img/Rectangle 123.png');
+  background-size: cover;
+  background-position: center;
+  margin-top: 8px;
+}
+
+.free-main {
+  display: flex;
+  max-width: 1110px;
+  margin: 0 auto;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.free-main .free-img {
+  max-width: 372px;
+  width: 100%;
+}
+
+.free-main .free-img img {
+  width: 100%;
+  display: block;
+}
+
+.free-main .free-content {
+  max-width: 614px;
+  padding-top: 30px;
+}
+
+.free-main .free-content img {
+  margin-bottom: 30px;
+}
+
+.free-main .free-content h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 45px;
+  color: #f5f5f5;
+  margin-bottom: 10px;
+}
+
+.free-main .free-content p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: white;
+}
+
+.steps .how-content h2 {
+  margin-bottom: 40px;
+}
+
+.steps .how-content ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.steps .how-content ul li {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.steps .how-content ul li p {
+  margin: 0;
+}
+
+.how-it-works.steps .how-content ul li:not(:last-of-type) {
+  margin-bottom: 38px;
+}
+
+.steps .how-content ul li .step-icon {
+  max-width: 75px;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #00506c;
+}
+
+.steps .how-content ul li h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  margin-bottom: 5px;
+  display: block;
+  color: #454648;
+}
+
+.steps .how-content ul li p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #454648;
+}
+
+.faqs {
+  padding: 10px 0 100px;
+}
+
+.faqs h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.5;
+  color: #454648;
+  margin-bottom: 70px;
+}
+
+.faqs .faqs-main {
+  max-width: 1090px;
+  margin: 0 auto;
+}
+
+.faqs .faqs-main .accordion {
+  padding: 30px 0;
+  border-top: 1px solid rgba(0, 98, 111, 0.5);
+}
+
+.faqs .faqs-main .accordion__header > span {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  font-family: 'Source Serif Pro';
+  color: #454648;
+}
+
+.faqs .faqs-main .accordion:last-of-type {
+  border-bottom: 1px solid rgba(0, 98, 111, 0.5);
+}
+
+.faqs .faqs-main .accordion__body {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+  padding-top: 15px;
+}
+
+.faqs .faqs-main .accordion :is(.accordion__header, .accordion__body) {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.faqs .faqs-main .accordion__body p {
+  margin-bottom: 25px;
+}
+
+.faqs .faqs-main .accordion .accordion__header .open-icon .line {
+  display: block;
+  height: 2px;
+  width: 16px;
+  background: rgba(0, 98, 111, 1);
+  position: absolute;
+  transition: all ease 0.5s;
+}
+
+.faqs .faqs-main .accordion .accordion__header .open-icon .line:last-of-type {
+  transform: rotate(90deg);
+}
+
+.faqs .faqs-main .accordion .accordion__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.faqs
+  .faqs-main
+  .accordion
+  .accordion__header.open
+  .open-icon
+  .line:last-of-type {
+  transform: rotate(0deg);
+}
+
+.page-hero.center .hero-main {
+  justify-content: center;
+  text-align: center;
+}
+
+.page-hero.center .hero-content {
+  padding: 0;
+  max-width: 100%;
+}
+
+.page-hero.center {
+  background: linear-gradient(180deg, #00506c 2%, rgba(0, 80, 108, 0.34) 89.55%),
+    url(./assets/img/Header-Bar.png);
+  background-position: center;
+  background-size: cover;
+  padding: 300px 0 200px;
+  margin-top: -233px;
+}
+
+main.dental-implants .heading-partner {
+  font-family: 'Source Serif Pro';
+}
+
+main.dental-implants .partner-logo {
+  justify-content: center;
+  padding: 30px 0 20px;
+}
+
+main.dental-implants .heading-brace-system {
+  padding-top: 30px;
+}
+
+main.dental-implants .heading-brace-system img {
+  padding-bottom: 20px;
+}
+
+main.dental-implants h4.Specialist-our-team {
+  max-width: 100%;
+}
+
+main.dental-implants .how-it-works {
+  padding: 50px 0 60px;
+}
+
+main.dental-implants .how-it-works ul {
+  padding: 0;
+  list-style: none;
+}
+
+main.dental-implants .how-it-works ul li {
+  display: flex;
+  gap: 16px;
+}
+
+main.dental-implants .how-it-works ul li p {
+  margin: 0;
+}
+
+main.dental-implants .how-it-works ul li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+main.dental-implants .how-it-works ul li img {
+  margin-top: 2px;
+}
+
+.how-it-works.reverse .how-main {
+  flex-direction: row-reverse;
+}
+
+.how-it-works.reverse .how-content {
+  padding-left: 67px;
+  padding-right: 0;
+}
+
+.how-it-works.reverse .how-img-main::before {
+  right: unset;
+  left: -75px;
+}
+
+.how-it-works.reverse .how-img-main::after {
+  right: unset;
+  left: -44px;
+}
+
+main.dental-implants .how-it-works.reverse {
+  padding-bottom: 123px;
+}
+
+section.how-it-works.steps {
+  padding-top: 100px;
+}
+
+.composite-bonding .page-hero.center {
+  background: linear-gradient(180deg, #00506c 2%, rgba(0, 80, 108, 0.34) 89.55%),
+    url(./assets/img/composite.png);
+}
+
+.composite-bonding .form-main {
+  align-items: center;
+}
+
+.composite-bonding .form-main h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 1.3;
+  margin-bottom: 15px;
+  color: #454648;
+}
+
+.composite-bonding .form-main span {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  display: block;
+  color: #00506c;
+  margin-bottom: 10px;
+}
+
+.composite-bonding .form-main p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.composite-bonding .partner-logo {
+  justify-content: center;
+}
+
+.composite-bonding .partner-logo h3 {
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.composite-bonding p.Specialist-our-team-text {
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.composite-bonding .specialist-main {
+  max-width: 1012px;
+}
+
+.composite-bonding h4.Specialist-our-team {
+  max-width: 100%;
+}
+
+main.composite-bonding .how-it-works ul {
+  padding: 0;
+  list-style: none;
+}
+
+main.composite-bonding .how-it-works ul li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+main.composite-bonding .how-it-works ul li p {
+  margin: 0;
+}
+
+main.composite-bonding .how-it-works ul li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+main.composite-bonding .how-it-works ul li img {
+  margin-top: 2px;
+}
+
+.how-it-works.reverse .how-img {
+  padding-right: 0 !important;
+  padding-left: 75px;
+}
+
+main.composite-bonding .how-it-works.reverse .how-content {
+  padding-left: 60px;
+}
+
+main.composite-bonding .how-it-works.reverse .how-main {
+  align-items: flex-start;
+}
+
+main.composite-bonding .how-it-works.reverse {
+  padding: 0 0 90px;
+}
+
+.treatment h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #00506c;
+  margin-bottom: 40px;
+}
+
+.treatment .treatment-main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto 75px;
+  gap: 70px 20px;
+}
+
+.treatment .treatment-main .treatment-card {
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.treatment .treatment-main .treatment-card .treatment-icon {
+  max-width: 115px;
+  aspect-ratio: 1;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #00506c;
+}
+
+.treatment .treatment-main .treatment-card p {
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  color: #454648;
+}
+
+p.treatment-content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+  max-width: 673px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+section.treatment {
+  padding-bottom: 90px;
+}
+
+main.membership .page-hero.center {
+  padding-bottom: 436px;
+  background: linear-gradient(180deg, #00506c 2%, rgba(0, 80, 108, 0.34) 89.55%),
+    url(./assets/img/member.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.packages .nav-tab {
+  display: flex;
+  list-style: none;
+  max-width: fit-content;
+  margin: 0 auto 75px;
+  background: rgba(0, 80, 108, 0.74);
+  border-radius: 30px;
+  padding: 10px 12px;
+}
+
+.packages .tab-content .package-card {
+  min-width: 300px;
+}
+
+.packages .nav-tab a {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  color: #f5f5f5;
+  text-decoration: none;
+  padding: 7px 16px;
+  display: block;
+}
+
+.packages .nav-tab li.active a {
+  background: #3bc7f7;
+  border-radius: 30px;
+}
+
+.packages .tab-content .content {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+  overflow: auto;
+}
+
+.packages .tab-content .package-card {
+  max-width: 33.33%;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.packages .tab-content .package-card:nth-of-type(1) {
+  background: linear-gradient(
+    360deg,
+    #0e516e 0%,
+    #3fc7f3 45.31%,
+    #0e516e 84.9%
+  );
+  box-shadow: 3px 5px 10px rgba(0, 80, 108, 0.26);
+  border-radius: 5px;
+  padding-bottom: 45px;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) {
+  background: linear-gradient(180deg, #636366 0%, #ebebed 45.31%, #848689 100%);
+  box-shadow: 3px 5px 10px rgba(0, 80, 108, 0.26);
+  border-radius: 5px;
+  padding-bottom: 35px;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) {
+  background: linear-gradient(180deg, #b2802b 0%, #faef9f 50%, #cdaa57 100%);
+  box-shadow: 3px 5px 10px rgba(0, 80, 108, 0.26);
+  border-radius: 5px;
+  padding-bottom: 100px;
+}
+
+.packages .tab-content .package-card .card-header img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.packages .tab-content .package-card .card-header {
+  padding: 0 20px;
+  border-bottom: 1px solid white;
+}
+
+.packages .tab-content .package-card .card-header h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  font-family: 'Montserrat';
+  margin-bottom: 10px;
+  color: #3bc7f7;
+}
+
+.packages .tab-content .package-card .card-header > p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.6;
+  text-align: center;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.packages .tab-content .package-card .card-header .price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.packages .tab-content .package-card .card-header .price span {
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 63px;
+  display: block;
+}
+
+.packages .tab-content .package-card .card-header .price p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.packages .package-card .card-features ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.packages .package-card .card-features {
+  padding: 25px 32px 0;
+}
+
+.packages .package-card .card-features ul li {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.packages .package-card .card-features ul li:not(:last-of-type) {
+  margin-bottom: 17px;
+}
+
+.packages .package-card .card-features ul li p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) .card-header > :is(h2, p) {
+  color: #595859;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) .card-header .price {
+  color: #454648;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) .card-features ul li p {
+  color: #454648;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) .card-header > :is(h2, p) {
+  color: #7b4e00;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) .card-header .price {
+  color: #454648;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) .card-features ul p {
+  color: #454648;
+}
+
+.packages .tab-content .package-card:nth-of-type(2) .card-header {
+  border-color: #595859;
+}
+
+.packages .tab-content .package-card:nth-of-type(3) .card-header {
+  border-color: #7b4e00;
+}
+
+section.packages {
+  padding-bottom: 80px;
+  margin-top: -345px;
+}
+
+.cta {
+  padding: 75px 0;
+  text-align: center;
+  background: url('./assets/img/cta.png'),
+    linear-gradient(180deg, rgba(0, 80, 108, 0.33) 0%, #3bc7f7 100%);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.cta h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #00506c;
+  margin-bottom: 10px;
+}
+
+.cta p {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: white;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+main.membership .how-it-works ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+main.membership .how-it-works ul li {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+main.membership .how-it-works ul li p {
+  margin: 0;
+}
+
+main.membership .how-it-works ul li:not(:last-of-type) {
+  margin-bottom: 20px;
+}
+
+main.membership .how-it-works ul li img {
+  margin-top: 2px;
+}
+
+.membership section.how-it-works {
+  padding: 110px 0 140px;
+}
+
+.membership-steps h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #454648;
+  margin-bottom: 50px;
+}
+
+.membership-steps .membership-steps-main {
+  display: flex;
+  gap: 40px;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.membership-steps .membership-cards {
+  max-width: 33.33%;
+  width: 100%;
+  background: linear-gradient(180deg, #00506c 0%, rgba(0, 80, 108, 0.6) 100%);
+  border-radius: 5px;
+  text-align: center;
+  padding: 20px 25px;
+}
+
+.membership-steps .membership-cards img {
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.membership-steps .membership-cards h3 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 33px;
+  color: #f5f5f5;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+
+.membership-steps .membership-cards p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  color: #f5f5f5;
+}
+
+section.membership-steps {
+  padding-bottom: 120px;
+}
+
+/* NOMI CSS */
+.about-us-page-hero {
+  background: linear-gradient(
+    180deg,
+    #00506c 2%,
+    rgba(0, 80, 108, 0.34) 89.55%
+  );
+  text-align: center;
+  padding: 67px 0 72px 0;
+  margin-top: -233px;
+  padding-top: 300px;
+}
+
+.contact-us-page-hero {
+  background: linear-gradient(
+    180deg,
+    #00506c 2%,
+    rgba(0, 80, 108, 0.34) 89.55%
+  );
+  text-align: center;
+  padding: 67px 0 72px 0;
+}
+
+.our-team-page-hero {
+  background: linear-gradient(
+    180deg,
+    #00506c 2%,
+    rgba(0, 80, 108, 0.34) 89.55%
+  );
+  text-align: center;
+  padding: 67px 0 72px 0;
+  margin-top: -233px;
+  padding-top: 300px;
+}
+
+.main-about-us-page-container h1 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.64px;
+  color: #f5f5f5;
+}
+
+.main-about-us-page-container a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 31px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+main.about-us .mission-vission .form-cta-main {
+  margin: 0;
+}
+
+main.about-us .mission-vission .form-main {
+  padding-top: 82px;
+  gap: 20px;
+}
+
+.mission-vission .form-content .heading {
+  font-size: 38px;
+  line-height: 47.61px;
+  font-weight: 600;
+  color: #333335;
+}
+
+main.about-us .mission-vission .form-content {
+  max-width: 695px;
+  width: 100%;
+}
+
+main.about-us .mission-vission .form-cta-main {
+  max-width: 439px;
+  width: 100%;
+}
+
+main.our-team .why-our-team .form-cta-main {
+  margin: 0;
+}
+
+main.our-team .why-our-team .form-main {
+  padding-top: 82px;
+}
+
+main.contact-us .get-in-touch .form-cta-main {
+  margin: 0;
+}
+
+main.contact-us .why-our-team .form-main {
+  padding-top: 82px;
+}
+
+.why-our-team .form-content .heading {
+  font-size: 38px;
+  line-height: 47.61px;
+  font-weight: 600;
+  color: #333335;
+}
+
+main.our-team .why-our-team .form-content {
+  max-width: 695px;
+  width: 100%;
+}
+
+main.our-team .why-our-team .form-cta-main {
+  max-width: 439px;
+  width: 100%;
+}
+
+.heading-content h3 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 47px;
+  color: #333335;
+  font-family: Source Serif Pro;
+}
+
+.heading-content p {
+  font-weight: 600;
+  line-height: 28px;
+  font-size: 16px;
+  color: #00506c;
+  margin: 15px 0 15px 0;
+  font-family: Montserrat;
+}
+
+.about-us-description p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333335;
+  font-family: Montserrat;
+}
+
+.our-team-description p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333335;
+  margin-top: 20px;
+}
+
+.about-us-our-mission h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #00506c;
+  font-family: Montserrat;
+}
+
+.about-us-our-mission p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+  font-family: Montserrat;
+  margin-top: 10px;
+}
+
+.about-us-our-vission h3 {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #00506c;
+  font-family: Montserrat;
+}
+
+.about-us-our-vission p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #454648;
+  font-family: Montserrat;
+  margin-top: 10px;
+}
+
+.about-us-our-mission {
+  margin-top: 35px;
+}
+
+.about-us-our-vission {
+  margin-top: 30px;
+}
+
+.our-core-values {
+  background: linear-gradient(180deg, rgba(0, 80, 108, 0.33) 0%, #00506c 73.57%),
+    url('assets/img/background.png');
+  background-position: center center;
+  background-size: contain;
+  padding: 101px 0 82px 0;
+}
+
+.main-core-values-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1174px;
+  width: 100%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.main-core-heading h2 {
+  font-size: 28px;
+  line-height: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.main-services-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1082px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.main-practice-gallery-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 74px;
+  padding-top: 82px;
+}
+
+.main-practice-location-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 74px;
+  padding-top: 112px;
+}
+
+.main-our-team-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  padding-bottom: 74px;
+}
+
+.services-details {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.our-services {
+  padding: 76px 0 73px 0;
+}
+
+.benefits h3 {
+  font-size: 22px;
+  line-height: 26.82px;
+  font-weight: 600;
+  color: #f5f5f5;
+  margin-top: 20px;
+}
+
+.service-1 {
+  position: relative;
+  max-width: 340px;
+  width: 100%;
+  background: linear-gradient(
+      0.01deg,
+      rgba(0, 80, 108, 0.74) -2.12%,
+      rgba(22, 124, 159, 0.514427) 35.64%,
+      rgba(59, 199, 247, 0.13) 99.99%
+    ),
+    url('assets/img/Rectangle\ 54.png');
+  border-radius: 10px;
+  background-position: center center;
+  aspect-ratio: 1.25/1;
+  padding: 20px 20px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.services-button {
+  width: fit-content;
+  margin-left: auto;
+}
+
+.service-1 .services-heading {
+  text-align: left;
+  width: 100%;
+}
+
+.service-1 a {
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 15px;
+  color: #00506c;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  padding-left: 26px;
+  padding-right: 26px;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+  display: block;
+}
+
+.services-heading h4 {
+  color: #f5f5f5;
+  font-size: 28px;
+  line-height: 35px;
+  font-weight: 600;
+}
+
+.services-main-heading h2 {
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 47px;
+  font-family: Source Serif Pro;
+}
+
+.gallery-main-heading h2 {
+  line-height: 47.61px;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Source Serif Pro;
+}
+
+.gallery-main-heading {
+  padding-bottom: 37px;
+}
+
+.location-main-heading h2 {
+  line-height: 47.61px;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Source Serif Pro;
+}
+
+.location-main-heading {
+  padding-bottom: 37px;
+}
+
+.our-team-main-heading h2 {
+  line-height: 47.61px;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+  font-family: Source Serif Pro;
+}
+
+.our-team-main-heading {
+  padding-bottom: 37px;
+}
+
+.services-main-heading {
+  padding-bottom: 50px;
+}
+
+.services-heading-2 {
+}
+
+.services-heading-2 h4 {
+  line-height: 35px;
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+
+.services-heading-3 h4 {
+  line-height: 35px;
+  font-size: 28px;
+  color: white;
+  font-weight: 600;
+  text-align: left;
+}
+
+.services-details a {
+  text-decoration: none;
+}
+
+.gallery-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.instagram-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 14px;
+  column-gap: 12px;
+}
+
+.location-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 18px;
+}
+
+.people-data-image h5 {
+  margin: 0;
+  margin-top: 30px;
+}
+
+.accessibility h3 {
+  font-family: Montserrat;
+}
+
+.thinking h3 {
+  font-family: Montserrat;
+}
+
+.trust h3 {
+  font-family: Montserrat;
+}
+
+.efficiency h3 {
+  font-family: Montserrat;
+}
+
+.integrity h3 {
+  font-family: Montserrat;
+}
+
+.accountability h3 {
+  font-family: Montserrat;
+}
+
+.transparency h3 {
+  font-family: Montserrat;
+}
+
+.our-team-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 50px;
+}
+
+.location-data-image img {
+  margin-top: 27px;
+}
+
+.location-data-image h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  color: #00506c;
+}
+
+.location-data-image {
+  width: 388px;
+  margin: 0;
+}
+
+.location-data-image p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.people-data-image img {
+  /* margin-top: 27px; */
+  width: 100%;
+}
+
+.people-data-image h5 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 40px;
+  color: #00506c;
+  font-family: Montserrat;
+}
+
+.people-data-image {
+}
+
+.people-data-image p {
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+  font-family: Montserrat;
+  color: #00506c;
+}
+
+.main-our-team-page-container h1 {
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 57.64px;
+  color: #f5f5f5;
+}
+
+.main-our-team-page-container a {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 31px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.timings {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  gap: 20px 0;
+}
+
+.main-opening-hours-containers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 945px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 67px;
+  padding-bottom: 67px;
+}
+
+.opening-hours {
+  background-image: url('./assets/img/Group\ 299.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.main-heading-opening-hours h2 {
+  font-family: Source Serif Pro;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 47.61px;
+  color: white;
+}
+
+.timings p {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: white;
+  margin-top: 30px;
+}
+
+.timings span {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26px;
+  color: white;
+}
+
+.form-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form-1 {
+  justify-content: space-between;
+}
+
+section.get-in-touch {
+  padding: 112px 0;
+}
+
+section.get-in-touch #form-1 {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+main.contact-us .get-in-touch .form-cta-main {
+  max-width: 55%;
+  width: 100%;
+}
+
+main.contact-us .get-in-touch .get-in-touch-form {
+  max-width: 420px;
+  width: 100%;
+}
+
+.get-in-touch-form h3 {
+  color: #00506c;
+  font-size: 38px;
+  font-weight: 700;
+  font-family: Source Serif Pro;
+}
+
+.personal-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 38px;
+  column-gap: 20px;
+}
+
+.personal-info img {
+  width: 43px;
+}
+
+.social-media-icons {
+  width: 266.78px;
+  margin-top: 50px;
+}
+
+.personal-info p {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 26px;
+  color: #00506c;
+  font-family: Montserrat;
+}
+
+.contacts {
+  margin-top: 50px;
+}
+
+/* changes */
+.home .compare-table table thead th:nth-of-type(2) {
+  background: #4c8498;
+  width: 265px;
+}
+
+.home .compare-table table thead th:nth-of-type(3) {
+  width: 183px;
+}
+
+.home .compare-table table thead th:nth-of-type(4) {
+  width: 200px;
+}
+
+.table-main {
+  overflow: auto;
+}
+
+.home .compare-table table thead th:nth-of-type(2) img {
+  max-width: 134px;
+  width: 100%;
+}
+
+section.preview {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 80, 108, 0.33) 0%,
+    #00506c 73.57%
+  );
+  padding-top: 17px;
+}
+
+.preview-main {
+  display: flex;
+  align-items: center;
+  max-width: 650px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.preview-main h2 {
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.preview-main p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.preview-main a {
+  background: #3bc7f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 40px;
+  color: white;
+  padding: 13px;
+  gap: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.preview-content {
+  max-width: 250px;
+}
+
+.preview-main img {
+  display: block;
+  width: 100%;
+}
+
+/* compare-slider */
+
+#comparison {
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+figure {
+  position: absolute;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-before.jpg);
+  background-size: cover;
+  font-size: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+#divisor {
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-after.jpg);
+  background-size: cover;
+  position: absolute;
+  width: 50%;
+  box-shadow: 0 5px 10px -2px rgba(0, 0, 0, 0.3);
+  bottom: 0;
+  height: 100%;
+}
+#divisor::before,
+#divisor::after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  width: 4px;
+  height: calc(50% - 25px);
+  background: white;
+  z-index: 3;
+}
+#divisor::before {
+  top: 0;
+  box-shadow: 0 -3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+#divisor::after {
+  bottom: 0;
+  box-shadow: 0 3px 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+#handle {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: 1;
+}
+#handle::before,
+#handle::after {
+  content: '';
+  width: 0;
+  height: 0;
+  border: 6px inset transparent;
+  position: absolute;
+  top: 50%;
+  margin-top: -6px;
+}
+#handle::before {
+  border-right: 6px solid white;
+  left: 50%;
+  margin-left: -17px;
+}
+#handle::after {
+  border-left: 6px solid white;
+  right: 50%;
+  margin-right: -17px;
+}
+
+input[type='range'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  position: absolute;
+  top: 50%;
+  left: -25px;
+  transform: translateY(-50%);
+  background-color: transparent;
+  width: calc(100% + 50px);
+  z-index: 2;
+}
+input[type='range']:focus,
+input[type='range']:active {
+  border: none;
+  outline: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: transparent;
+  border: 4px solid white;
+  box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.3);
+}
+
+input[type='range']::-moz-range-track {
+  -moz-appearance: none;
+  height: 15px;
+  width: 100%;
+  background-color: transparent;
+  position: relative;
+  outline: none;
+}
+
+.difference-main {
+  display: flex;
+  gap: 30px;
+  padding: 30px;
+}
+
+.difference-main > div {
+  max-width: 50%;
+  width: 100%;
+  position: relative;
+}
+
+.difference-main .column-1::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 183px;
+  aspect-ratio: 1;
+  background: url(./assets/img/Dots.png);
+  left: -30px;
+  top: -30px;
+  z-index: 1;
+}
+
+.difference-main .column-1::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: -16px;
+  z-index: -1;
+  left: -16px;
+  background: #3bc7f7;
+  border-radius: 20px 0 0 20px;
+}
+
+.difference-main .column-2::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 183px;
+  aspect-ratio: 1;
+  background: url(./assets/img/Dots.png);
+  right: -30px;
+  bottom: -30px;
+  z-index: 1;
+}
+
+.difference-main .column-2::after {
+  content: '';
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  bottom: -16px;
+  z-index: -1;
+  right: -16px;
+  background: #3bc7f7;
+  border-radius: 0 20px 20px 0;
+}
+
+.difference {
+  padding-top: 130px;
+}
+
+.difference h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 48px;
+  color: #454648;
+  margin-bottom: 30px;
+}
+
+.header-select {
+  max-width: 167px;
+  width: 100%;
+  position: relative;
+}
+
+.header-select button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  position: relative;
+}
+
+.header-select button svg {
+  transform: rotate(180deg);
+  transition: all ease 0.5s;
+}
+
+.header-select-items {
+  background: rgba(59, 199, 247, 0.8);
+  padding: 0 10px 0 15px;
+  border-radius: 20px;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: 0;
+  transition: all ease 0.5s;
+  min-height: 44px;
+}
+
+.header-select-items.active {
+  padding: 60px 10px 20px 15px;
+}
+
+.header-select-items .items-list {
+  display: none;
+}
+
+.header-select-items a {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.header-select-items a:not(:last-of-type) {
+  margin-bottom: 15px;
+}
+
+.hamburger {
+  max-width: 25px;
+  width: 100%;
+}
+
+.hamburger span {
+  width: 100%;
+  background: white;
+  display: block;
+  height: 2px;
+  transition: all ease 0.5s;
+}
+
+.hamburger span:not(:last-of-type) {
+  margin-bottom: 4px;
+}
+
+.hamburger span:last-of-type {
+  max-width: 18px;
+  margin-left: auto;
+}
+
+.hamburger.active .line:last-of-type {
+  display: none;
+}
+
+.hamburger.active .line:nth-of-type(2) {
+  transform: rotate(45deg);
+  margin: -1px 0 0 0;
+}
+
+.hamburger.active .line:nth-of-type(1) {
+  transform: rotate(-45deg);
+  margin-bottom: 0;
+}
+
+.hamburger {
+  display: none;
+}
+
+.compare-invislign {
+  position: relative;
+}
+
+.compare-braces {
+  position: relative;
+}
+
+.open-icon {
+  max-width: 16px;
+  width: 100%;
+  aspect-ratio: 1;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .package-main .main-content .content-body {
+    padding: 40px 15px 50px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  main.our-team .why-our-team .form-content {
+    max-width: 100%;
+  }
+
+  main.our-team .why-our-team .form-cta-main {
+    max-width: 100%;
+  }
+
+  .our-team-details {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us section.follow-on-instagram {
+    padding-top: 0;
+  }
+
+  main.about-us h3.heading-for.location {
+    padding-top: 0;
+  }
+
+  .main-practice-gallery-container {
+    padding-top: 0;
+  }
+
+  main.about-us .mission-vission .form-content {
+    max-width: 100%;
+  }
+
+  main.about-us .mission-vission .form-cta-main {
+    max-width: 100%;
+  }
+
+  .benefits {
+    justify-content: center;
+    gap: 50px 20px;
+  }
+
+  main.contact-us .get-in-touch .form-cta-main {
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  main.contact-us .get-in-touch .get-in-touch-form {
+    max-width: 100%;
+  }
+
+  .form-cta-main {
+    width: 100%;
+  }
+
+  .main-nav-footer {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+
+  .footer-logo {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .main-nav-footer ul {
+    padding: 0;
+    margin: 0 0 15px;
+  }
+
+  h3.heading-nav-sevices {
+    padding-bottom: 10px;
+  }
+
+  h3.heading-nav-information {
+    padding-bottom: 15px;
+  }
+
+  .nav-information li {
+    padding-bottom: 8px;
+  }
+
+  .nav-services li {
+    padding-bottom: 8px;
+  }
+
+  .nav-getin {
+    padding: 0;
+  }
+  .Invisalign {
+    padding: 100px 0;
+  }
+  .partner-logo {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .form-main {
+    gap: 20px;
+    flex-direction: column;
+    padding-bottom: 50px;
+  }
+
+  .form-cta-main {
+    margin-top: 10px;
+  }
+
+  .form-content {
+    max-width: 100%;
+  }
+
+  .form-content img {
+    width: auto;
+  }
+
+  .header-social {
+    display: none;
+  }
+
+  header .btn-details {
+    display: none;
+  }
+
+  header .main-nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .header-main {
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .membership-steps .membership-steps-main {
+    flex-wrap: wrap;
+  }
+
+  .membership-steps .membership-cards {
+    max-width: 100%;
+  }
+
+  main.composite-bonding .how-it-works ul li p {
+    text-align: left;
+  }
+
+  main.composite-bonding .how-it-works.reverse .how-content {
+    padding: 20px 0;
+    text-align: center;
+  }
+
+  main.composite-bonding .how-it-works ul li {
+    justify-content: center;
+  }
+
+  .treatment .treatment-main {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  main.composite-bonding .how-it-works.steps ul li {
+    justify-content: flex-start;
+  }
+
+  .how-it-works.reverse .how-main {
+    flex-direction: column;
+  }
+
+  .how-it-works.reverse .how-content {
+    padding: 0;
+  }
+
+  .one-invislign {
+    padding-bottom: 0 !important;
+  }
+
+  section.how-it-works.steps {
+    padding-top: 100px !important;
+  }
+
+  .page-hero .hero-main {
+    flex-direction: column-reverse;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .hero-img {
+    max-width: 350px;
+  }
+
+  .specialist-list {
+    flex-direction: column;
+  }
+
+  .specialist-list .offer {
+    max-width: 100%;
+  }
+
+  .complimentry-services {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .specialist-list .offer h3 {
+    text-align: center;
+  }
+
+  .specialist-list .offer ul li {
+    justify-content: center;
+  }
+
+  .one-invislign p.Specialist-our-team-text {
+    margin-bottom: 0;
+  }
+
+  .compare-main {
+    flex-direction: column;
+  }
+
+  .compare {
+    padding: 50px 0;
+  }
+
+  .why-choose {
+    padding: 50px 0 130px;
+  }
+
+  .why-choose .why-main .why-card {
+    max-width: calc(50% - 15px);
+  }
+
+  .why-choose .why-main {
+    flex-wrap: wrap;
+  }
+
+  .difference-main {
+    flex-direction: column;
+  }
+
+  .difference-main > div {
+    max-width: 100%;
+  }
+
+  .how-main {
+    flex-direction: column;
+  }
+
+  .how-main .how-content {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  section.how-it-works {
+    padding: 50px 0;
+  }
+
+  .how-main .how-img {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .compare-table {
+    padding-bottom: 50px;
+  }
+
+  .what-main .what-card {
+    max-width: calc(50% - 17px);
+  }
+
+  .what-invislign h2 {
+    margin-bottom: 30px;
+  }
+
+  .package-main {
+    flex-direction: column;
+  }
+
+  .package-main .left-img {
+    max-width: 100%;
+    aspect-ratio: 2/1;
+    background-position: top;
+  }
+
+  .package-main .main-content {
+    max-width: 100%;
+  }
+
+  .package-main .right-img {
+    max-width: 100%;
+    aspect-ratio: 2/1;
+  }
+
+  .free-virtual {
+    padding-top: 50px;
+  }
+
+  .free-main {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .free-main .free-img {
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  section.how-it-works.steps {
+    padding-top: 50px;
+  }
+
+  .main-coposite-bonding {
+    flex-direction: column;
+  }
+
+  .men-with-smiling {
+    max-width: 100%;
+  }
+
+  .composite-bonding-details {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .main-dental-implants {
+    flex-direction: column-reverse;
+  }
+
+  .dental-implants-details {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .women-with-smiling {
+    max-width: 100%;
+  }
+
+  section.dental-implants {
+    margin-bottom: 50px;
+  }
+
+  .about-location {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .main-coposite-bonding {
+    flex-direction: column;
+  }
+
+  .men-with-smiling {
+    max-width: 100%;
+  }
+
+  .composite-bonding-details {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .main-dental-implants {
+    flex-direction: column-reverse;
+  }
+
+  .dental-implants-details {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 0;
+    padding: 20px;
+  }
+
+  .women-with-smiling {
+    max-width: 100%;
+  }
+
+  section.dental-implants {
+    margin-bottom: 50px;
+  }
+
+  .about-location {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .about-privacy-policy {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-end {
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .our-team-details {
+    grid-template-columns: 1fr;
+  }
+
+  .how-it-works.reverse .how-img-main::after {
+    left: -10px;
+  }
+
+  .how-it-works.reverse .how-img-main::before {
+    left: -30px;
+  }
+
+  .how-it-works.reverse .how-img {
+    padding: 0;
+  }
+
+  .page-hero.center {
+    padding: 250px 0 100px;
+  }
+
+  main.dental-implants .how-it-works.reverse {
+    padding-bottom: 50px;
+  }
+
+  .preview-main {
+    flex-direction: column;
+  }
+
+  .preview-content {
+    max-width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .compare-main .vs span {
+    font-size: 20px;
+  }
+
+  .compare-main .vs {
+    max-width: 55px;
+  }
+
+  h2 {
+    font-size: 25px !important;
+  }
+
+  .why-choose .why-main .why-card {
+    max-width: 100%;
+  }
+
+  .difference {
+    padding-top: 80px;
+  }
+
+  h3 {
+    font-size: 22px !important;
+  }
+
+  .how-main .how-img {
+    padding: 20px 20px 0 0;
+  }
+
+  .how-main .how-img-main::before {
+    right: -20px;
+    top: -20px;
+  }
+
+  .how-main .how-img-main::after {
+    top: -10px;
+    right: -10px;
+  }
+
+  .what-main .what-card {
+    max-width: 100%;
+  }
+
+  .steps .how-content h2 {
+    text-align: center;
+  }
+
+  .steps .how-content ul li {
+    gap: 20px;
+  }
+
+  .steps .how-content ul li .step-icon {
+    max-width: 50px;
+  }
+
+  .steps .how-content ul li .step-icon img {
+    max-width: 45%;
+    width: 100%;
+    display: block;
+  }
+
+  .how-main .how-content {
+    margin-bottom: 50px;
+  }
+
+  .faqs h2 {
+    margin-bottom: 30px;
+  }
+
+  .faqs .faqs-main .accordion {
+    padding: 15px 0;
+  }
+
+  .faqs .faqs-main .accordion__header > span {
+    font-size: 18px;
+  }
+
+  .footer-logo img {
+    max-width: 120px;
+  }
+  h3.saving {
+    font-size: 14px;
+  }
+
+  .about-saving {
+    gap: 10px;
+    flex-direction: column;
+  }
+
+  img.play-btn {
+    width: auto !important;
+  }
+
+  .video-about-brace {
+    font-size: 14px;
+  }
+
+  .compare-table h2 {
+    font-size: 27px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+  }
+
+  section.follow-on-instagram {
+    padding: 50px 0;
+  }
+
+  h3.heading-for.location {
+    padding: 50px 0;
+    font-size: 27px;
+  }
+
+  .about-location {
+    grid-template-columns: 1fr;
+  }
+
+  h3.instagram-username {
+    font-size: 27px;
+  }
+
+  h3.heading-invisalign-saving {
+    font-size: 27px;
+  }
+
+  .Invisalign-saving {
+    padding: 50px 0;
+  }
+
+  .compare-table table tbody :is(th, td) {
+    height: 65px;
+  }
+
+  .compare-table table thead th:first-of-type {
+    width: 300px;
+  }
+
+  .compare-table table {
+    min-width: 750px;
+  }
+
+  h1 {
+    font-size: 35px !important;
+  }
+
+  p.hero-text {
+    font-size: 16px;
+  }
+
+  h3.heading-partner {
+    font-size: 20px;
+  }
+
+  h3.most-popular {
+    font-size: 27px;
+  }
+
+  .partner-logo {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-content img {
+    width: 100%;
+  }
+
+  h3.Specialist-orthodontists-heading {
+    font-size: 27px;
+  }
+
+  h4.Specialist-our-team {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 15px !important;
+  }
+
+  .Invisalign {
+    padding: 50px 0;
+  }
+
+  .header-select button {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 5px 10px;
+  }
+
+  .header-select {
+    max-width: 112px;
+  }
+
+  .header-select-items {
+    min-height: 25px;
+    border-radius: 12px;
+  }
+
+  .header-select-items.active {
+    padding: 32px 5px 6px;
+  }
+
+  .header-select-items a {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 15px;
+  }
+
+  .header-select-items {
+    padding: 0 5px 0;
+  }
+
+  .header-soctland-dental-logo img {
+    max-width: 63px;
+    width: 100%;
+  }
+
+  .mobile-menu .mobile-btns a {
+    font-size: 10px;
+  }
+
+  .treatment .treatment-main .treatment-card .treatment-icon {
+    max-width: 60px;
+  }
+
+  .treatment .treatment-main .treatment-card .treatment-icon img {
+    width: 55%;
+  }
+
+  .packages .tab-content .content {
+    gap: 10px;
+  }
+
+  .membership section.how-it-works {
+    padding: 50px 0;
+  }
+}
